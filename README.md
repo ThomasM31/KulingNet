@@ -1,8 +1,29 @@
 # KulingNet
 Ground-Based Cloud Classiﬁcation With Deep CNN, based on CCSN dataset
 
+Notes on CCSN:
+The CCSN dataset contains 2543 cloud images. 
+According to the World Meterological Organization’s genera-based 
+classification recommendation, we divide into 11 different categories：
+
+Ci = cirrus; 
+Cs = cirrostratus; 
+Cc = cirrocumulus; 
+Ac = altocumulus; 
+As = altostratus; 
+Cu = cumulus; 
+Cb = cumulonimbus; 
+Ns = nimbostratus; 
+Sc = stratocumulus; 
+St = stratus; 
+Ct = contrail.
+
+
+All images are fixed resolution 256×256 pixels with the JPEG format.
+
+-----------------------------------------------------------------------
+
 Next steps:
-- Kernel size, BatchNorm2d, Dropout
 - Plot validation/training loss
 - Evaluate CNN through confusion matrix
 - Transfer learning (Utilizing pre-trained CNN, ex. ResNet-18 or EfficientNet)
@@ -14,3 +35,4 @@ Next steps:
 
 Link to examples:
 - https://www.kaggle.com/code/tamoshreedey/coudcustomcnn
+
