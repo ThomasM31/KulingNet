@@ -1,5 +1,20 @@
 # KulingNet
 Ground-Based Cloud Classiﬁcation With Deep CNN, based on CCSN dataset
+KulingNet1.0:
+- 3 Conv-layers, 3 fc-layers
+- 
+
+KulingNet2.0:
+- 4 Conv-layers, 2 fc-layers
+- Adaptive pooling, dropout, batchNorm2d
+- Track with Confusion Matrix, classification report
+-  
+
+KulingNet3.0:
+- Follows structure of CloudNet
+- 
+
+------------------------------------------------------------------------
 
 Notes on CCSN:
 The CCSN dataset contains 2543 cloud images. 
