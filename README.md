@@ -2,6 +2,7 @@
 Ground-Based Cloud Classiﬁcation With Deep CNN, based on CCSN dataset
 
 ![alt text](https://github.com/ThomasM31/KulingNet/blob/main/CCSN_Image_set/Cu/Cu-N009.jpg?raw=true)
+
 Example image from CCSN dataset: (Cumulus, N009) 
 
 
