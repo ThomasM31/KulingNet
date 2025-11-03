@@ -2,6 +2,7 @@
 Ground-Based Cloud Classiﬁcation With Deep CNN, based on CCSN dataset
 
 ## KulingNet1.0:
+- Basic CNN, 5x5 kernel
 - 3 Conv-layers, 3 fc-layers
 - 
 
@@ -57,3 +58,6 @@ Link to examples:
 
 
 ReadMe formatting: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax 
+
+
+![alt text](https://github.com/ThomasM31/KulingNet/blob/main/CCSN_Image_Set/Ac/Ac-N001.jpg?raw=true)
