@@ -54,3 +54,6 @@ All images are fixed resolution 256×256 pixels with the JPEG format.
 Link to examples:
 - https://www.kaggle.com/code/tamoshreedey/coudcustomcnn
 - 
+
+
+ReadMe formatting: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax 
