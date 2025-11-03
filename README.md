@@ -1,25 +1,26 @@
 # KulingNet
 Ground-Based Cloud Classiﬁcation With Deep CNN, based on CCSN dataset
-KulingNet1.0:
+
+## KulingNet1.0:
 - 3 Conv-layers, 3 fc-layers
 - 
 
-KulingNet2.0:
+## KulingNet2.0:
 - 4 Conv-layers, 2 fc-layers
 - Adaptive pooling, dropout, batchNorm2d
 - Track with Confusion Matrix, classification report
 -  
 
-Next steps: 
+**Next steps**: 
 - Modify optimizer metrics: learning rate + momentum?
-- Plot validation/training loss
-- Refine CNN through confusion matrix
+- ~~Plot validation/training loss~~
+- ~~Refine CNN through confusion matrix~~
 - More advanced CNN? (more layers/parameters)
 
-KulingNet3.0:
+## KulingNet3.0:
 - 
 
-Next steps: 
+**Next steps**: 
 - Transfer learning (Utilizing pre-trained CNN, ex. ResNet-18 or EfficientNet)
 - Follow structure of CloudNet (from article)
     Article it is based on:
