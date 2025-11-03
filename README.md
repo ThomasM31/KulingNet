@@ -60,4 +60,4 @@ Link to examples:
 ReadMe formatting: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax 
 
 
-![alt text](https://github.com/ThomasM31/KulingNet/blob/main/CCSN_Image_Set/Ac/Ac-N001.jpg?raw=true)
+![alt text](https://github.com/ThomasM31/KulingNet/blob/main/CCSN_Image_set/Cu/Cu-N009.jpg?raw=true)
