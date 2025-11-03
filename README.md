@@ -20,16 +20,14 @@ Example image from CCSN dataset: (Cumulus, N009)
 - Modify optimizer metrics: learning rate + momentum?
 - Examine loss function 
 - More advanced CNN? (more layers/parameters)
+- Batch size? 
 
 ## KulingNet3.0:
-- Follows structure of CloudNet
-- 
+- Follows structure of CloudNet (https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018GL077787), see CloudNet.md for notes
 
 **Next steps**: 
 - Transfer learning (Utilizing pre-trained CNN, ex. ResNet-18 or EfficientNet)
-- Follow structure of CloudNet (from article)
-    Article it is based on:
-    https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018GL077787
+- 
 
 
 ------------------------------------------------------------------------
