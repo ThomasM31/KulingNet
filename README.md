@@ -15,8 +15,6 @@ Example image from CCSN dataset: (Cumulus, N009)
 - Evaluate with Confusion Matrix, classification report
 
 **Next steps**: 
-- ~~Plot validation/training loss~~
-- ~~Refine CNN through confusion matrix~~
 - Modify optimizer metrics: learning rate + momentum?
 - Examine loss function 
 - More advanced CNN? (more layers/parameters)
