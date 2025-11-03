@@ -1,9 +1,7 @@
 # KulingNet
 Ground-Based Cloud Classiﬁcation With Deep CNN, based on CCSN dataset
 
-![alt text](https://github.com/ThomasM31/KulingNet/blob/main/CCSN_Image_set/Cu/Cu-N009.jpg?raw=true)
-
-Example image from CCSN dataset: (Cumulus, N009) 
+![Example image from CCSN dataset: (Cumulus, N009)](https://github.com/ThomasM31/KulingNet/blob/main/CCSN_Image_set/Cu/Cu-N009.jpg?raw=true)
 
 
 ## KulingNet1.0:
@@ -18,9 +16,10 @@ Example image from CCSN dataset: (Cumulus, N009)
 -  
 
 **Next steps**: 
-- Modify optimizer metrics: learning rate + momentum?
 - ~~Plot validation/training loss~~
 - ~~Refine CNN through confusion matrix~~
+- Modify optimizer metrics: learning rate + momentum?
+- Examine loss function 
 - More advanced CNN? (more layers/parameters)
 
 ## KulingNet3.0:
