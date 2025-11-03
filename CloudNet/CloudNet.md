@@ -4,7 +4,7 @@ CloudNet article: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018G
 
 - Optimized CNN based on Alexnet
 
-![CloudNet Architecture](https://github.com/ThomasM31/KulingNet/blob/main/CloudNet_Architecture.png?raw=true)
+![CloudNet Architecture](https://github.com/ThomasM31/KulingNet/blob/main/CloudNet/CloudNet_Architecture.png?raw=true)
 
 - 5 conv-layers, 2 FC-layers
 - Takes RGB-images, "subtract the mean red-green-blue value of each pixel over the training set to improvetraining speed and accuracy"
@@ -16,5 +16,5 @@ CloudNet article: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018G
 - "Trained with a stochastic gradient usingthe machine learning software package Caﬀe (Jia et al., 2014) and running on an NVIDIA GeForce GTX780Tiwith batch size 8."
 - learning rate: 0.001, EPOCHS: 20,000, momentum: 0.9. Learning rate reduced by factor of 10 every 5,000 epochs
 
-![CloudNet Confusion Matrix](https://github.com/ThomasM31/KulingNet/blob/main/CloudNet_CM.png?raw=true)
+![CloudNet Confusion Matrix](https://github.com/ThomasM31/KulingNet/blob/main/CloudNet/CloudNet_CM.png?raw=true)
 
