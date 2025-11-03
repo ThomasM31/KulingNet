@@ -22,6 +22,7 @@ Example image from CCSN dataset: (Cumulus, N009)
 - More advanced CNN? (more layers/parameters)
 
 ## KulingNet3.0:
+- Follows structure of CloudNet
 - 
 
 **Next steps**: 
