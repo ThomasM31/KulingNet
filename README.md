@@ -1,7 +1,7 @@
 # KulingNet
 Ground-Based Cloud Classiﬁcation With Deep CNN, based on CCSN dataset
 
-![What even goes here?](https://github.com/ThomasM31/KulingNet/blob/main/CCSN_Image_set/Cu/Cu-N009.jpg?raw=true)
+![Example cloud image, Cu-N009.jpg](https://github.com/ThomasM31/KulingNet/blob/main/CCSN_Image_set/Cu/Cu-N009.jpg?raw=true)
 
 Example image from CCSN dataset: (Cumulus, N009)
 
@@ -20,11 +20,20 @@ Example image from CCSN dataset: (Cumulus, N009)
 - Batch size? 
 
 ## KulingNet3.0:
-- Follows structure of CloudNet (https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018GL077787), see CloudNet.md for notes
+(Follows structure of CloudNet (https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018GL077787), see CloudNet.md for notes)
+- 5 conv layers, 2 FC-layers
+- Dropout to 5th & 6th layer after nonlinearity
+- SGD with defalut parameters (Krizhevsky et al., 2012)
+- CNN is trained from scratch
+- learning rate: 0.001, EPOCHS: 20,000, momentum: 0.9. Learning rate reduced by factor of 10 every 5,000 epochs
+- Images are augmented with random crop and flip
+
 
 **Next steps**: 
 - Transfer learning (Utilizing pre-trained CNN, ex. ResNet-18 or EfficientNet)
 - Check different articles for potential other structures??
+- Use CUDA (GPU-running)
+- 
 
 
 ------------------------------------------------------------------------
