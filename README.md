@@ -25,7 +25,7 @@ Example image from CCSN dataset: (Cumulus, N009)
 - Dropout to 5th & 6th layer after nonlinearity
 - SGD with defalut parameters (Krizhevsky et al., 2012)
 - CNN is trained from scratch
-- learning rate: 0.001, EPOCHS: 20,000, momentum: 0.9. Learning rate reduced by factor of 10 every 5,000 epochs
+- learning rate: 0.001, momentum: 0.9. 
 - Images are augmented with random crop and flip
 
 
@@ -33,8 +33,9 @@ Example image from CCSN dataset: (Cumulus, N009)
 - Transfer learning (Utilizing pre-trained CNN, ex. ResNet-18 or EfficientNet)
 - Check different articles for potential other structures??
 - Use CUDA (GPU-running)
+- Scale up EPOCHS: 20,000
+- Learning rate reduced by factor of 10 every 5,000 epochs
 - 
-
 
 ------------------------------------------------------------------------
 
