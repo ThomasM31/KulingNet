@@ -25,7 +25,7 @@ Example image from CCSN dataset: (Cumulus, N009)
 
 **Next steps**: 
 - Transfer learning (Utilizing pre-trained CNN, ex. ResNet-18 or EfficientNet)
-- 
+- Check different articles for potential other structures??
 
 
 ------------------------------------------------------------------------
