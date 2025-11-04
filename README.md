@@ -17,7 +17,6 @@ Example image from CCSN dataset: (Cumulus, N009)
 **Next steps**: 
 - Modify optimizer metrics: learning rate + momentum?
 - Examine loss function 
-- More advanced CNN? (more layers/parameters)
 - Batch size? 
 
 ## KulingNet3.0:
@@ -25,7 +24,7 @@ Example image from CCSN dataset: (Cumulus, N009)
 
 **Next steps**: 
 - Transfer learning (Utilizing pre-trained CNN, ex. ResNet-18 or EfficientNet)
-- 
+- Check different articles for potential other structures??
 
 
 ------------------------------------------------------------------------
