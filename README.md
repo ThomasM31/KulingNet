@@ -14,11 +14,6 @@ Example image from CCSN dataset: (Cumulus, N009)
 - Adaptive pooling, dropout, batchNorm2d
 - Evaluate with Confusion Matrix, classification report
 
-**Next steps**: 
-- Modify optimizer metrics: learning rate + momentum?
-- Examine loss function 
-- Batch size? 
-
 ## KulingNet3.0:
 (Follows structure of CloudNet (https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018GL077787), see CloudNet.md for notes)
 - 5 conv layers, 2 FC-layers
@@ -27,15 +22,6 @@ Example image from CCSN dataset: (Cumulus, N009)
 - CNN is trained from scratch
 - learning rate: 0.001, momentum: 0.9. 
 - Images are augmented with random crop and flip
-
-
-**Next steps**: 
-- Transfer learning (Utilizing pre-trained CNN, ex. ResNet-18 or EfficientNet)
-- Check different articles for potential other structures??
-- Use CUDA (GPU-running)
-- Scale up EPOCHS: 20,000
-- Learning rate reduced by factor of 10 every 5,000 epochs
-- 
 
 ------------------------------------------------------------------------
 
@@ -61,10 +47,13 @@ All images are fixed resolution 256×256 pixels with the JPEG format.
 
 -----------------------------------------------------------------------
 
-Link to examples:
-- https://www.kaggle.com/code/tamoshreedey/coudcustomcnn
+## Next steps ##: 
+- Transfer learning (Utilizing pre-trained CNN, ex. ResNet-18 or EfficientNet)
+- Check different articles for potential other structures??
+- Use CUDA (GPU-running)
+- Scale up EPOCHS: 20,000
+- Learning rate reduced by factor of 10 every 5,000 epochs
 - 
-
 
 ReadMe formatting: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax 
 
