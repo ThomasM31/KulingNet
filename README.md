@@ -47,7 +47,7 @@ All images are fixed resolution 256×256 pixels with the JPEG format.
 
 -----------------------------------------------------------------------
 
-## Next steps ##: 
+## Next steps: 
 - Transfer learning (Utilizing pre-trained CNN, ex. ResNet-18 or EfficientNet)
 - Check different articles for potential other structures??
 - Use CUDA (GPU-running)
