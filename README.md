@@ -5,15 +5,6 @@ Ground-Based Cloud Classiﬁcation With Deep CNN, based on CCSN dataset
 
 Example image from CCSN dataset: (Cumulus, N009)
 
-## KulingNet1.0:
-- Basic CNN, 5x5 kernel
-- 3 Conv-layers, 3 fc-layers
-
-## KulingNet2.0:
-- 4 Conv-layers, 2 fc-layers, 3x3 kernel
-- Adaptive pooling, dropout, batchNorm2d
-- Evaluate with Confusion Matrix, classification report
-
 ## KulingNet3.0:
 (Follows structure of CloudNet (https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018GL077787), see CloudNet.md for notes)
 - 5 conv layers, 2 FC-layers
