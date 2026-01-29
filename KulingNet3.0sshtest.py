@@ -34,8 +34,8 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 from sklearn.metrics import classification_report
 from sklearn.metrics import roc_curve, auc
 # Running on GPU
-print(torch.__version__)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+#device = 'cpu'
 
 # Device specs
 if str(device) == 'cuda':
@@ -50,10 +50,8 @@ images_file_path = os.path.join(base_dir, "CCSN_Image_set")
 # example path for cirrus clouds
 ci_file_path = os.path.join(images_file_path, "Ci")
 
-#print(f"Example (Cirrus) filepath: {ci_file_path}")
-#print(f"Root filepath: {images_file_path}")
-
 pathData = Path(images_file_path)
+"""
 # Overview of images
 def walkDataset(dir_path):
     directories = []
@@ -66,7 +64,7 @@ def walkDataset(dir_path):
     return directories
 
 image_dir_paths = walkDataset(images_file_path)
-
+"""
 # Tensor ~ vector (array of components)
 # Compose allows for list of several transformations simultanously 
 transform = transforms.Compose([
@@ -290,7 +288,7 @@ train_losses, val_losses = [], []
 train_accuracies, val_accuracies = [], []
 
 # Training loop
-EPOCHS = 1
+EPOCHS = 4
 for epoch in range(EPOCHS):
     print("Epoch:", epoch+1, "...")
 
@@ -320,7 +318,6 @@ print(f"Accuracy: {accuracy:.3f} %",
     f"Recall Score: {rec_score:.3f}",
     sep="\n"
 )
-
 
 # If running on GPU
 if str(device) == 'cuda':
