@@ -347,6 +347,8 @@ def get_confusion_matrix(y_true, y_pred):
     return cm
 
 cm = get_confusion_matrix(y_true, y_pred)
+
+
 # Classification report
 report = classification_report(y_true, y_pred, target_names=class_names)
 print("Classification Report: \n", report) 
